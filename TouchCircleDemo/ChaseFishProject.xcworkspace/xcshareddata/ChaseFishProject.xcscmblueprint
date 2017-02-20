@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "94a6c61c-5144-a04d-bf0b-854f5e3b1763++3875" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "94a6c61c-5144-a04d-bf0b-854f5e3b1763++3875" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7262E16F-5615-4B7E-B087-C1FFA2E05E80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "94a6c61c-5144-a04d-bf0b-854f5e3b1763++3875" : "%E9%80%90%E9%B1%BC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChaseFishProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChaseFishProject.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/115.28.220.220:9000\/svn\/chuangke",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94a6c61c-5144-a04d-bf0b-854f5e3b1763++3875"
+    }
+  ]
+}

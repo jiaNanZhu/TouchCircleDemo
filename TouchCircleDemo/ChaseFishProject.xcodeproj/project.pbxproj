@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12BF0BF36CE2C62D5F5B3C54 /* libPods-ChaseFishProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E697775809E561A209D1D897 /* libPods-ChaseFishProject.a */; };
+		E37ECEBB1E557F8D0095259E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEBA1E557F8D0095259E /* main.m */; };
+		E37ECEBE1E557F8D0095259E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEBD1E557F8D0095259E /* AppDelegate.m */; };
+		E37ECEC11E557F8D0095259E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEC01E557F8D0095259E /* ViewController.m */; };
+		E37ECEC41E557F8D0095259E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37ECEC21E557F8D0095259E /* Main.storyboard */; };
+		E37ECEC61E557F8D0095259E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37ECEC51E557F8D0095259E /* Assets.xcassets */; };
+		E37ECEC91E557F8D0095259E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37ECEC71E557F8D0095259E /* LaunchScreen.storyboard */; };
+		E37ECED41E557F8E0095259E /* ChaseFishProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECED31E557F8E0095259E /* ChaseFishProjectTests.m */; };
+		E37ECEDF1E557F8E0095259E /* ChaseFishProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEDE1E557F8E0095259E /* ChaseFishProjectUITests.m */; };
+		E37ECEF01E5584260095259E /* ChaseFishTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEEF1E5584260095259E /* ChaseFishTabbarController.m */; };
+		E37ECEF41E55886F0095259E /* ChaseFishNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEF31E55886F0095259E /* ChaseFishNavigationController.m */; };
+		E37ECEFD1E558B410095259E /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECEFB1E558B410095259E /* MessageViewController.m */; };
+		E37ECEFE1E558B410095259E /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37ECEFC1E558B410095259E /* MessageViewController.xib */; };
+		E37ECF021E558B540095259E /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECF001E558B540095259E /* AddressBookViewController.m */; };
+		E37ECF031E558B540095259E /* AddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37ECF011E558B540095259E /* AddressBookViewController.xib */; };
+		E37ECF071E558B690095259E /* LiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECF051E558B690095259E /* LiveStreamingViewController.m */; };
+		E37ECF081E558B690095259E /* LiveStreamingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37ECF061E558B690095259E /* LiveStreamingViewController.xib */; };
+		E37ECF0C1E558B7D0095259E /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECF0A1E558B7D0095259E /* ResourceViewController.m */; };
+		E37ECF0D1E558B7D0095259E /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37ECF0B1E558B7D0095259E /* ResourceViewController.xib */; };
+		E37ECF111E558B8C0095259E /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37ECF0F1E558B8C0095259E /* MineViewController.m */; };
+		E37ECF121E558B8C0095259E /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37ECF101E558B8C0095259E /* MineViewController.xib */; };
+		E3D891F01E5ACB6B0035664C /* ChaseFishProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D891EE1E5ACB6B0035664C /* ChaseFishProjectViewController.m */; };
+		E3D891F11E5ACB6B0035664C /* ChaseFishProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D891EF1E5ACB6B0035664C /* ChaseFishProjectViewController.xib */; };
+		E3D891F51E5ACB7E0035664C /* ChaseFishSupplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D891F31E5ACB7E0035664C /* ChaseFishSupplyViewController.m */; };
+		E3D891F61E5ACB7E0035664C /* ChaseFishSupplyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D891F41E5ACB7E0035664C /* ChaseFishSupplyViewController.xib */; };
+		E3D891FA1E5ACB8E0035664C /* ChaseFishStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D891F81E5ACB8E0035664C /* ChaseFishStudyViewController.m */; };
+		E3D891FB1E5ACB8E0035664C /* ChaseFishStudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D891F91E5ACB8E0035664C /* ChaseFishStudyViewController.xib */; };
+		E3D891FF1E5ACB9F0035664C /* ChaseFishInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D891FD1E5ACB9F0035664C /* ChaseFishInfomationViewController.m */; };
+		E3D892001E5ACB9F0035664C /* ChaseFishInfomationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D891FE1E5ACB9F0035664C /* ChaseFishInfomationViewController.xib */; };
+		E3D892041E5ACBCE0035664C /* ChaseFishTalentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D892021E5ACBCE0035664C /* ChaseFishTalentsViewController.m */; };
+		E3D892051E5ACBCE0035664C /* ChaseFishTalentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D892031E5ACBCE0035664C /* ChaseFishTalentsViewController.xib */; };
+		E3D892091E5ACBDF0035664C /* ChaseFishRecruitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D892071E5ACBDF0035664C /* ChaseFishRecruitViewController.m */; };
+		E3D8920A1E5ACBDF0035664C /* ChaseFishRecruitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D892081E5ACBDF0035664C /* ChaseFishRecruitViewController.xib */; };
+		E3D8920E1E5ACBF30035664C /* ChaseFishActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D8920C1E5ACBF30035664C /* ChaseFishActivityViewController.m */; };
+		E3D8920F1E5ACBF30035664C /* ChaseFishActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D8920D1E5ACBF30035664C /* ChaseFishActivityViewController.xib */; };
+		E3EA5B8D1E56A4AF00E82E7D /* RotationBtnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA5B8C1E56A4AF00E82E7D /* RotationBtnModel.m */; };
+		E3EA5B901E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA5B8F1E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.m */; };
+		E3EA5B931E56A6C300E82E7D /* CFRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA5B921E56A6C300E82E7D /* CFRotationView.m */; };
+		E3EA5B981E56C5C900E82E7D /* ChaseFishStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA5B961E56C5C900E82E7D /* ChaseFishStoreViewController.m */; };
+		E3EA5B991E56C5C900E82E7D /* ChaseFishStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EA5B971E56C5C900E82E7D /* ChaseFishStoreViewController.xib */; };
+		E3EA5B9B1E56C8C400E82E7D /* ButtonList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3EA5B9A1E56C8C400E82E7D /* ButtonList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E37ECED01E557F8E0095259E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E37ECEAE1E557F8D0095259E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37ECEB51E557F8D0095259E;
+			remoteInfo = ChaseFishProject;
+		};
+		E37ECEDB1E557F8E0095259E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E37ECEAE1E557F8D0095259E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37ECEB51E557F8D0095259E;
+			remoteInfo = ChaseFishProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB31957C31913E6D5A9ABE29 /* Pods-ChaseFishProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseFishProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseFishProject/Pods-ChaseFishProject.release.xcconfig"; sourceTree = "<group>"; };
+		D7A59582B001F8A66C0B2D2A /* Pods-ChaseFishProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaseFishProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaseFishProject/Pods-ChaseFishProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E37ECEB61E557F8D0095259E /* ChaseFishProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaseFishProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37ECEBA1E557F8D0095259E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E37ECEBC1E557F8D0095259E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E37ECEBD1E557F8D0095259E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E37ECEBF1E557F8D0095259E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E37ECEC01E557F8D0095259E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E37ECEC31E557F8D0095259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E37ECEC51E557F8D0095259E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E37ECEC81E557F8D0095259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E37ECECA1E557F8D0095259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37ECECF1E557F8E0095259E /* ChaseFishProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseFishProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37ECED31E557F8E0095259E /* ChaseFishProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaseFishProjectTests.m; sourceTree = "<group>"; };
+		E37ECED51E557F8E0095259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37ECEDA1E557F8E0095259E /* ChaseFishProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseFishProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37ECEDE1E557F8E0095259E /* ChaseFishProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaseFishProjectUITests.m; sourceTree = "<group>"; };
+		E37ECEE01E557F8E0095259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37ECEEE1E5584260095259E /* ChaseFishTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishTabbarController.h; sourceTree = "<group>"; };
+		E37ECEEF1E5584260095259E /* ChaseFishTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishTabbarController.m; sourceTree = "<group>"; };
+		E37ECEF11E55864E0095259E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E37ECEF21E55886F0095259E /* ChaseFishNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishNavigationController.h; sourceTree = "<group>"; };
+		E37ECEF31E55886F0095259E /* ChaseFishNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishNavigationController.m; sourceTree = "<group>"; };
+		E37ECEFA1E558B410095259E /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		E37ECEFB1E558B410095259E /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		E37ECEFC1E558B410095259E /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		E37ECEFF1E558B540095259E /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		E37ECF001E558B540095259E /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		E37ECF011E558B540095259E /* AddressBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBookViewController.xib; sourceTree = "<group>"; };
+		E37ECF041E558B690095259E /* LiveStreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveStreamingViewController.h; sourceTree = "<group>"; };
+		E37ECF051E558B690095259E /* LiveStreamingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveStreamingViewController.m; sourceTree = "<group>"; };
+		E37ECF061E558B690095259E /* LiveStreamingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveStreamingViewController.xib; sourceTree = "<group>"; };
+		E37ECF091E558B7D0095259E /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceViewController.h; sourceTree = "<group>"; };
+		E37ECF0A1E558B7D0095259E /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceViewController.m; sourceTree = "<group>"; };
+		E37ECF0B1E558B7D0095259E /* ResourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceViewController.xib; sourceTree = "<group>"; };
+		E37ECF0E1E558B8C0095259E /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		E37ECF0F1E558B8C0095259E /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		E37ECF101E558B8C0095259E /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		E3D891ED1E5ACB6B0035664C /* ChaseFishProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishProjectViewController.h; sourceTree = "<group>"; };
+		E3D891EE1E5ACB6B0035664C /* ChaseFishProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishProjectViewController.m; sourceTree = "<group>"; };
+		E3D891EF1E5ACB6B0035664C /* ChaseFishProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishProjectViewController.xib; sourceTree = "<group>"; };
+		E3D891F21E5ACB7E0035664C /* ChaseFishSupplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishSupplyViewController.h; sourceTree = "<group>"; };
+		E3D891F31E5ACB7E0035664C /* ChaseFishSupplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishSupplyViewController.m; sourceTree = "<group>"; };
+		E3D891F41E5ACB7E0035664C /* ChaseFishSupplyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishSupplyViewController.xib; sourceTree = "<group>"; };
+		E3D891F71E5ACB8E0035664C /* ChaseFishStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishStudyViewController.h; sourceTree = "<group>"; };
+		E3D891F81E5ACB8E0035664C /* ChaseFishStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishStudyViewController.m; sourceTree = "<group>"; };
+		E3D891F91E5ACB8E0035664C /* ChaseFishStudyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishStudyViewController.xib; sourceTree = "<group>"; };
+		E3D891FC1E5ACB9F0035664C /* ChaseFishInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishInfomationViewController.h; sourceTree = "<group>"; };
+		E3D891FD1E5ACB9F0035664C /* ChaseFishInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishInfomationViewController.m; sourceTree = "<group>"; };
+		E3D891FE1E5ACB9F0035664C /* ChaseFishInfomationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishInfomationViewController.xib; sourceTree = "<group>"; };
+		E3D892011E5ACBCE0035664C /* ChaseFishTalentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishTalentsViewController.h; sourceTree = "<group>"; };
+		E3D892021E5ACBCE0035664C /* ChaseFishTalentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishTalentsViewController.m; sourceTree = "<group>"; };
+		E3D892031E5ACBCE0035664C /* ChaseFishTalentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishTalentsViewController.xib; sourceTree = "<group>"; };
+		E3D892061E5ACBDF0035664C /* ChaseFishRecruitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishRecruitViewController.h; sourceTree = "<group>"; };
+		E3D892071E5ACBDF0035664C /* ChaseFishRecruitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishRecruitViewController.m; sourceTree = "<group>"; };
+		E3D892081E5ACBDF0035664C /* ChaseFishRecruitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishRecruitViewController.xib; sourceTree = "<group>"; };
+		E3D8920B1E5ACBF30035664C /* ChaseFishActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishActivityViewController.h; sourceTree = "<group>"; };
+		E3D8920C1E5ACBF30035664C /* ChaseFishActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishActivityViewController.m; sourceTree = "<group>"; };
+		E3D8920D1E5ACBF30035664C /* ChaseFishActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishActivityViewController.xib; sourceTree = "<group>"; };
+		E3EA5B8B1E56A4AF00E82E7D /* RotationBtnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationBtnModel.h; sourceTree = "<group>"; };
+		E3EA5B8C1E56A4AF00E82E7D /* RotationBtnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationBtnModel.m; sourceTree = "<group>"; };
+		E3EA5B8E1E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCustomRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		E3EA5B8F1E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCustomRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		E3EA5B911E56A6C300E82E7D /* CFRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFRotationView.h; sourceTree = "<group>"; };
+		E3EA5B921E56A6C300E82E7D /* CFRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFRotationView.m; sourceTree = "<group>"; };
+		E3EA5B951E56C5C900E82E7D /* ChaseFishStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaseFishStoreViewController.h; sourceTree = "<group>"; };
+		E3EA5B961E56C5C900E82E7D /* ChaseFishStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaseFishStoreViewController.m; sourceTree = "<group>"; };
+		E3EA5B971E56C5C900E82E7D /* ChaseFishStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaseFishStoreViewController.xib; sourceTree = "<group>"; };
+		E3EA5B9A1E56C8C400E82E7D /* ButtonList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButtonList.plist; sourceTree = "<group>"; };
+		E697775809E561A209D1D897 /* libPods-ChaseFishProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaseFishProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E37ECEB31E557F8D0095259E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF0BF36CE2C62D5F5B3C54 /* libPods-ChaseFishProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37ECECC1E557F8E0095259E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37ECED71E557F8E0095259E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E76CCD2753C3D37588A0AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A59582B001F8A66C0B2D2A /* Pods-ChaseFishProject.debug.xcconfig */,
+				BB31957C31913E6D5A9ABE29 /* Pods-ChaseFishProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEDB62C98A1A80508031824A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E697775809E561A209D1D897 /* libPods-ChaseFishProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E37ECEAD1E557F8D0095259E = {
+			isa = PBXGroup;
+			children = (
+				E37ECEB81E557F8D0095259E /* ChaseFishProject */,
+				E37ECED21E557F8E0095259E /* ChaseFishProjectTests */,
+				E37ECEDD1E557F8E0095259E /* ChaseFishProjectUITests */,
+				E37ECEB71E557F8D0095259E /* Products */,
+				64E76CCD2753C3D37588A0AB /* Pods */,
+				AEDB62C98A1A80508031824A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E37ECEB71E557F8D0095259E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEB61E557F8D0095259E /* ChaseFishProject.app */,
+				E37ECECF1E557F8E0095259E /* ChaseFishProjectTests.xctest */,
+				E37ECEDA1E557F8E0095259E /* ChaseFishProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E37ECEB81E557F8D0095259E /* ChaseFishProject */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEBC1E557F8D0095259E /* AppDelegate.h */,
+				E37ECEBD1E557F8D0095259E /* AppDelegate.m */,
+				E37ECEBF1E557F8D0095259E /* ViewController.h */,
+				E37ECEC01E557F8D0095259E /* ViewController.m */,
+				E37ECEED1E5583CE0095259E /* BasicClassManager */,
+				E37ECEF71E558AF90095259E /* MessageViewController */,
+				E37ECEF51E558AF90095259E /* AddressBookViewController */,
+				E37ECEF61E558AF90095259E /* LiveStreamingViewController */,
+				E37ECEF91E558AF90095259E /* ResourceViewController */,
+				E37ECEF81E558AF90095259E /* MineViewController */,
+				E37ECEC21E557F8D0095259E /* Main.storyboard */,
+				E37ECEC51E557F8D0095259E /* Assets.xcassets */,
+				E37ECEC71E557F8D0095259E /* LaunchScreen.storyboard */,
+				E37ECECA1E557F8D0095259E /* Info.plist */,
+				E3EA5B9A1E56C8C400E82E7D /* ButtonList.plist */,
+				E37ECEF11E55864E0095259E /* PrefixHeader.pch */,
+				E37ECEB91E557F8D0095259E /* Supporting Files */,
+			);
+			path = ChaseFishProject;
+			sourceTree = "<group>";
+		};
+		E37ECEB91E557F8D0095259E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEBA1E557F8D0095259E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E37ECED21E557F8E0095259E /* ChaseFishProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECED31E557F8E0095259E /* ChaseFishProjectTests.m */,
+				E37ECED51E557F8E0095259E /* Info.plist */,
+			);
+			path = ChaseFishProjectTests;
+			sourceTree = "<group>";
+		};
+		E37ECEDD1E557F8E0095259E /* ChaseFishProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEDE1E557F8E0095259E /* ChaseFishProjectUITests.m */,
+				E37ECEE01E557F8E0095259E /* Info.plist */,
+			);
+			path = ChaseFishProjectUITests;
+			sourceTree = "<group>";
+		};
+		E37ECEED1E5583CE0095259E /* BasicClassManager */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEEE1E5584260095259E /* ChaseFishTabbarController.h */,
+				E37ECEEF1E5584260095259E /* ChaseFishTabbarController.m */,
+				E37ECEF21E55886F0095259E /* ChaseFishNavigationController.h */,
+				E37ECEF31E55886F0095259E /* ChaseFishNavigationController.m */,
+			);
+			path = BasicClassManager;
+			sourceTree = "<group>";
+		};
+		E37ECEF51E558AF90095259E /* AddressBookViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEFF1E558B540095259E /* AddressBookViewController.h */,
+				E37ECF001E558B540095259E /* AddressBookViewController.m */,
+				E37ECF011E558B540095259E /* AddressBookViewController.xib */,
+			);
+			path = AddressBookViewController;
+			sourceTree = "<group>";
+		};
+		E37ECEF61E558AF90095259E /* LiveStreamingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECF041E558B690095259E /* LiveStreamingViewController.h */,
+				E37ECF051E558B690095259E /* LiveStreamingViewController.m */,
+				E37ECF061E558B690095259E /* LiveStreamingViewController.xib */,
+			);
+			path = LiveStreamingViewController;
+			sourceTree = "<group>";
+		};
+		E37ECEF71E558AF90095259E /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECEFA1E558B410095259E /* MessageViewController.h */,
+				E37ECEFB1E558B410095259E /* MessageViewController.m */,
+				E37ECEFC1E558B410095259E /* MessageViewController.xib */,
+			);
+			path = MessageViewController;
+			sourceTree = "<group>";
+		};
+		E37ECEF81E558AF90095259E /* MineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECF0E1E558B8C0095259E /* MineViewController.h */,
+				E37ECF0F1E558B8C0095259E /* MineViewController.m */,
+				E37ECF101E558B8C0095259E /* MineViewController.xib */,
+			);
+			path = MineViewController;
+			sourceTree = "<group>";
+		};
+		E37ECEF91E558AF90095259E /* ResourceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E37ECF091E558B7D0095259E /* ResourceViewController.h */,
+				E37ECF0A1E558B7D0095259E /* ResourceViewController.m */,
+				E37ECF0B1E558B7D0095259E /* ResourceViewController.xib */,
+				E3D891E81E5ACA340035664C /* ChaseFishProjectViewController */,
+				E3D891EB1E5ACA340035664C /* ChaseFishSupplyViewController */,
+				E3D891EA1E5ACA340035664C /* ChaseFishStudyViewController */,
+				E3D891E71E5ACA340035664C /* ChaseFishInfomationViewController */,
+				E3EA5B941E56C5AF00E82E7D /* ChaseFishStoreViewController */,
+				E3D891EC1E5ACA340035664C /* ChaseFishTalentsViewController */,
+				E3D891E91E5ACA340035664C /* ChaseFishRecruitViewController */,
+				E3D891E61E5ACA340035664C /* ChaseFishActivityViewController */,
+				E3EA5B8A1E56A46D00E82E7D /* RotationViewManager */,
+			);
+			path = ResourceViewController;
+			sourceTree = "<group>";
+		};
+		E3D891E61E5ACA340035664C /* ChaseFishActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D8920B1E5ACBF30035664C /* ChaseFishActivityViewController.h */,
+				E3D8920C1E5ACBF30035664C /* ChaseFishActivityViewController.m */,
+				E3D8920D1E5ACBF30035664C /* ChaseFishActivityViewController.xib */,
+			);
+			path = ChaseFishActivityViewController;
+			sourceTree = "<group>";
+		};
+		E3D891E71E5ACA340035664C /* ChaseFishInfomationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D891FC1E5ACB9F0035664C /* ChaseFishInfomationViewController.h */,
+				E3D891FD1E5ACB9F0035664C /* ChaseFishInfomationViewController.m */,
+				E3D891FE1E5ACB9F0035664C /* ChaseFishInfomationViewController.xib */,
+			);
+			path = ChaseFishInfomationViewController;
+			sourceTree = "<group>";
+		};
+		E3D891E81E5ACA340035664C /* ChaseFishProjectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D891ED1E5ACB6B0035664C /* ChaseFishProjectViewController.h */,
+				E3D891EE1E5ACB6B0035664C /* ChaseFishProjectViewController.m */,
+				E3D891EF1E5ACB6B0035664C /* ChaseFishProjectViewController.xib */,
+			);
+			path = ChaseFishProjectViewController;
+			sourceTree = "<group>";
+		};
+		E3D891E91E5ACA340035664C /* ChaseFishRecruitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D892061E5ACBDF0035664C /* ChaseFishRecruitViewController.h */,
+				E3D892071E5ACBDF0035664C /* ChaseFishRecruitViewController.m */,
+				E3D892081E5ACBDF0035664C /* ChaseFishRecruitViewController.xib */,
+			);
+			path = ChaseFishRecruitViewController;
+			sourceTree = "<group>";
+		};
+		E3D891EA1E5ACA340035664C /* ChaseFishStudyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D891F71E5ACB8E0035664C /* ChaseFishStudyViewController.h */,
+				E3D891F81E5ACB8E0035664C /* ChaseFishStudyViewController.m */,
+				E3D891F91E5ACB8E0035664C /* ChaseFishStudyViewController.xib */,
+			);
+			path = ChaseFishStudyViewController;
+			sourceTree = "<group>";
+		};
+		E3D891EB1E5ACA340035664C /* ChaseFishSupplyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D891F21E5ACB7E0035664C /* ChaseFishSupplyViewController.h */,
+				E3D891F31E5ACB7E0035664C /* ChaseFishSupplyViewController.m */,
+				E3D891F41E5ACB7E0035664C /* ChaseFishSupplyViewController.xib */,
+			);
+			path = ChaseFishSupplyViewController;
+			sourceTree = "<group>";
+		};
+		E3D891EC1E5ACA340035664C /* ChaseFishTalentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3D892011E5ACBCE0035664C /* ChaseFishTalentsViewController.h */,
+				E3D892021E5ACBCE0035664C /* ChaseFishTalentsViewController.m */,
+				E3D892031E5ACBCE0035664C /* ChaseFishTalentsViewController.xib */,
+			);
+			path = ChaseFishTalentsViewController;
+			sourceTree = "<group>";
+		};
+		E3EA5B8A1E56A46D00E82E7D /* RotationViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA5B8B1E56A4AF00E82E7D /* RotationBtnModel.h */,
+				E3EA5B8C1E56A4AF00E82E7D /* RotationBtnModel.m */,
+				E3EA5B911E56A6C300E82E7D /* CFRotationView.h */,
+				E3EA5B921E56A6C300E82E7D /* CFRotationView.m */,
+				E3EA5B8E1E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.h */,
+				E3EA5B8F1E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.m */,
+			);
+			path = RotationViewManager;
+			sourceTree = "<group>";
+		};
+		E3EA5B941E56C5AF00E82E7D /* ChaseFishStoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA5B951E56C5C900E82E7D /* ChaseFishStoreViewController.h */,
+				E3EA5B961E56C5C900E82E7D /* ChaseFishStoreViewController.m */,
+				E3EA5B971E56C5C900E82E7D /* ChaseFishStoreViewController.xib */,
+			);
+			path = ChaseFishStoreViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E37ECEB51E557F8D0095259E /* ChaseFishProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37ECEE31E557F8E0095259E /* Build configuration list for PBXNativeTarget "ChaseFishProject" */;
+			buildPhases = (
+				71E21D98EE8F9A4E5519FDC7 /* [CP] Check Pods Manifest.lock */,
+				E37ECEB21E557F8D0095259E /* Sources */,
+				E37ECEB31E557F8D0095259E /* Frameworks */,
+				E37ECEB41E557F8D0095259E /* Resources */,
+				563CB3690107DD0690959054 /* [CP] Embed Pods Frameworks */,
+				38B4619F6D18A3D6B6544AF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaseFishProject;
+			productName = ChaseFishProject;
+			productReference = E37ECEB61E557F8D0095259E /* ChaseFishProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E37ECECE1E557F8E0095259E /* ChaseFishProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37ECEE61E557F8E0095259E /* Build configuration list for PBXNativeTarget "ChaseFishProjectTests" */;
+			buildPhases = (
+				E37ECECB1E557F8E0095259E /* Sources */,
+				E37ECECC1E557F8E0095259E /* Frameworks */,
+				E37ECECD1E557F8E0095259E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37ECED11E557F8E0095259E /* PBXTargetDependency */,
+			);
+			name = ChaseFishProjectTests;
+			productName = ChaseFishProjectTests;
+			productReference = E37ECECF1E557F8E0095259E /* ChaseFishProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E37ECED91E557F8E0095259E /* ChaseFishProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37ECEE91E557F8E0095259E /* Build configuration list for PBXNativeTarget "ChaseFishProjectUITests" */;
+			buildPhases = (
+				E37ECED61E557F8E0095259E /* Sources */,
+				E37ECED71E557F8E0095259E /* Frameworks */,
+				E37ECED81E557F8E0095259E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37ECEDC1E557F8E0095259E /* PBXTargetDependency */,
+			);
+			name = ChaseFishProjectUITests;
+			productName = ChaseFishProjectUITests;
+			productReference = E37ECEDA1E557F8E0095259E /* ChaseFishProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E37ECEAE1E557F8D0095259E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ShangYuKeJi;
+				TargetAttributes = {
+					E37ECEB51E557F8D0095259E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3UG295PK9T;
+						ProvisioningStyle = Automatic;
+					};
+					E37ECECE1E557F8E0095259E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E37ECEB51E557F8D0095259E;
+					};
+					E37ECED91E557F8E0095259E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E37ECEB51E557F8D0095259E;
+					};
+				};
+			};
+			buildConfigurationList = E37ECEB11E557F8D0095259E /* Build configuration list for PBXProject "ChaseFishProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E37ECEAD1E557F8D0095259E;
+			productRefGroup = E37ECEB71E557F8D0095259E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E37ECEB51E557F8D0095259E /* ChaseFishProject */,
+				E37ECECE1E557F8E0095259E /* ChaseFishProjectTests */,
+				E37ECED91E557F8E0095259E /* ChaseFishProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E37ECEB41E557F8D0095259E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D891F61E5ACB7E0035664C /* ChaseFishSupplyViewController.xib in Resources */,
+				E3D891F11E5ACB6B0035664C /* ChaseFishProjectViewController.xib in Resources */,
+				E37ECF031E558B540095259E /* AddressBookViewController.xib in Resources */,
+				E3D892051E5ACBCE0035664C /* ChaseFishTalentsViewController.xib in Resources */,
+				E3EA5B991E56C5C900E82E7D /* ChaseFishStoreViewController.xib in Resources */,
+				E3D891FB1E5ACB8E0035664C /* ChaseFishStudyViewController.xib in Resources */,
+				E3D8920A1E5ACBDF0035664C /* ChaseFishRecruitViewController.xib in Resources */,
+				E3D8920F1E5ACBF30035664C /* ChaseFishActivityViewController.xib in Resources */,
+				E37ECEC91E557F8D0095259E /* LaunchScreen.storyboard in Resources */,
+				E37ECEC61E557F8D0095259E /* Assets.xcassets in Resources */,
+				E37ECEFE1E558B410095259E /* MessageViewController.xib in Resources */,
+				E37ECEC41E557F8D0095259E /* Main.storyboard in Resources */,
+				E3EA5B9B1E56C8C400E82E7D /* ButtonList.plist in Resources */,
+				E37ECF0D1E558B7D0095259E /* ResourceViewController.xib in Resources */,
+				E37ECF081E558B690095259E /* LiveStreamingViewController.xib in Resources */,
+				E37ECF121E558B8C0095259E /* MineViewController.xib in Resources */,
+				E3D892001E5ACB9F0035664C /* ChaseFishInfomationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37ECECD1E557F8E0095259E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37ECED81E557F8E0095259E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B4619F6D18A3D6B6544AF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseFishProject/Pods-ChaseFishProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563CB3690107DD0690959054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaseFishProject/Pods-ChaseFishProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E21D98EE8F9A4E5519FDC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E37ECEB21E557F8D0095259E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37ECEFD1E558B410095259E /* MessageViewController.m in Sources */,
+				E3D891FA1E5ACB8E0035664C /* ChaseFishStudyViewController.m in Sources */,
+				E3D8920E1E5ACBF30035664C /* ChaseFishActivityViewController.m in Sources */,
+				E3EA5B901E56A50C00E82E7D /* CFCustomRotationGestureRecognizer.m in Sources */,
+				E37ECF071E558B690095259E /* LiveStreamingViewController.m in Sources */,
+				E3D892041E5ACBCE0035664C /* ChaseFishTalentsViewController.m in Sources */,
+				E37ECEF01E5584260095259E /* ChaseFishTabbarController.m in Sources */,
+				E3D891F51E5ACB7E0035664C /* ChaseFishSupplyViewController.m in Sources */,
+				E37ECEC11E557F8D0095259E /* ViewController.m in Sources */,
+				E37ECEF41E55886F0095259E /* ChaseFishNavigationController.m in Sources */,
+				E3EA5B8D1E56A4AF00E82E7D /* RotationBtnModel.m in Sources */,
+				E3EA5B981E56C5C900E82E7D /* ChaseFishStoreViewController.m in Sources */,
+				E37ECF0C1E558B7D0095259E /* ResourceViewController.m in Sources */,
+				E37ECEBE1E557F8D0095259E /* AppDelegate.m in Sources */,
+				E3EA5B931E56A6C300E82E7D /* CFRotationView.m in Sources */,
+				E37ECF111E558B8C0095259E /* MineViewController.m in Sources */,
+				E37ECEBB1E557F8D0095259E /* main.m in Sources */,
+				E3D892091E5ACBDF0035664C /* ChaseFishRecruitViewController.m in Sources */,
+				E3D891F01E5ACB6B0035664C /* ChaseFishProjectViewController.m in Sources */,
+				E37ECF021E558B540095259E /* AddressBookViewController.m in Sources */,
+				E3D891FF1E5ACB9F0035664C /* ChaseFishInfomationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37ECECB1E557F8E0095259E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37ECED41E557F8E0095259E /* ChaseFishProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37ECED61E557F8E0095259E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37ECEDF1E557F8E0095259E /* ChaseFishProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E37ECED11E557F8E0095259E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E37ECEB51E557F8D0095259E /* ChaseFishProject */;
+			targetProxy = E37ECED01E557F8E0095259E /* PBXContainerItemProxy */;
+		};
+		E37ECEDC1E557F8E0095259E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E37ECEB51E557F8D0095259E /* ChaseFishProject */;
+			targetProxy = E37ECEDB1E557F8E0095259E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E37ECEC21E557F8D0095259E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37ECEC31E557F8D0095259E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E37ECEC71E557F8D0095259E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37ECEC81E557F8D0095259E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E37ECEE11E557F8E0095259E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E37ECEE21E557F8E0095259E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E37ECEE41E557F8E0095259E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A59582B001F8A66C0B2D2A /* Pods-ChaseFishProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UG295PK9T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChaseFishProject/PrefixHeader.pch";
+				INFOPLIST_FILE = ChaseFishProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.ChaseFishProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E37ECEE51E557F8E0095259E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB31957C31913E6D5A9ABE29 /* Pods-ChaseFishProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UG295PK9T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChaseFishProject/PrefixHeader.pch";
+				INFOPLIST_FILE = ChaseFishProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.ChaseFishProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E37ECEE71E557F8E0095259E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaseFishProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.ChaseFishProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaseFishProject.app/ChaseFishProject";
+			};
+			name = Debug;
+		};
+		E37ECEE81E557F8E0095259E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaseFishProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.ChaseFishProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaseFishProject.app/ChaseFishProject";
+			};
+			name = Release;
+		};
+		E37ECEEA1E557F8E0095259E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChaseFishProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.ChaseFishProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChaseFishProject;
+			};
+			name = Debug;
+		};
+		E37ECEEB1E557F8E0095259E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChaseFishProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.ChaseFishProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChaseFishProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E37ECEB11E557F8D0095259E /* Build configuration list for PBXProject "ChaseFishProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37ECEE11E557F8E0095259E /* Debug */,
+				E37ECEE21E557F8E0095259E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37ECEE31E557F8E0095259E /* Build configuration list for PBXNativeTarget "ChaseFishProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37ECEE41E557F8E0095259E /* Debug */,
+				E37ECEE51E557F8E0095259E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37ECEE61E557F8E0095259E /* Build configuration list for PBXNativeTarget "ChaseFishProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37ECEE71E557F8E0095259E /* Debug */,
+				E37ECEE81E557F8E0095259E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37ECEE91E557F8E0095259E /* Build configuration list for PBXNativeTarget "ChaseFishProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37ECEEA1E557F8E0095259E /* Debug */,
+				E37ECEEB1E557F8E0095259E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E37ECEAE1E557F8D0095259E /* Project object */;
+}
